@@ -18,7 +18,7 @@
 
 ---
 
-### 🌟 Key Results (HSE v7.1 – 09.11.2025 Update)
+### 🌟 Key Results (HSE v7 – 10.11.2025 Update)
 
 | Metric | Value | Consistency |
 |:---|:---|:---|
