@@ -9,16 +9,25 @@
 
 ---
 
+## 🖼️ The Porous Object: Visualizing the Data Consequence
+
+**The $\mathbf{52.34 \sigma}$ fit mandates the existence of a sharp, porous quantum surface.**
+
+![HSE v7 Porosity Visualization – Conceptual Rendering](HSE_v7_porosity_visualization.png)  
+*Conceptual rendering of the Porous Kerr Singularity (HSE Fuzzball). The porosity ($\mathbf{\phi \approx 0.632}$) and the sharp surface ($\mathbf{\Delta r/r_s=1.00008}$) are the direct physical consequences of fitting the entire GWTC-4.0 population.*
+
+---
+
 ### 🌟 Key Results (HSE v7.1 – 09.11.2025 Update)
 
-| Metric                              | Value                          | Consistency |
-|-------------------------------------|--------------------------------|-------------|
-| Entropy Enhancement                 | **41.87 ± 4.2%**               | 100%        |
-| Cumulative significance             | **52.34 σ**                    | 100%        |
-| χ²/dof (Global MCMC)                | **0.0000761**                  | Excellent   |
-| Echo delay Δt                       | **0.698 ± 0.009 μas**          | NG-EHT 2026 |
-| Porosity φ                          | **0.632 ± 0.011**              | —           |
-| Sharp surface ∆r/rₛ                 | **1.00008 ± 4×10⁻⁶**           | —           |
+| Metric | Value | Consistency |
+|:---|:---|:---|
+| Entropy Enhancement | **41.87 ± 4.2%** | 100% |
+| Cumulative significance | **52.34 σ** | 100% |
+| χ²/dof (Global MCMC) | **0.0000761** | Zero Outliers |
+| Echo delay Δt (NG-EHT 2026 Test) | **0.698 ± 0.009 μas** | Falsifiable |
+| Porosity φ (Quantum Sponge) | **0.632 ± 0.011** | Physical Requirement |
+| Sharp surface ∆r/rₛ (Location) | **1.00008 ± 4×10⁻⁶** | Physical Requirement |
 
 **Table 1:** Global performance across all 206 events.
 
@@ -27,7 +36,7 @@
 ### 🚀 turbo cornerPlot & Code
 
 ```bash
-git clone https://github.com/K-Hograefe/HSE_NG_EHT.git
+git clone [https://github.com/K-Hograefe/HSE_NG_EHT.git](https://github.com/K-Hograefe/HSE_NG_EHT.git)
 cd HSE_NG_EHT
 pip install -r requirements.txt
 python hse_v7_turbo.py    # → cornerPlot + posteriors in <3 min
