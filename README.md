@@ -7,7 +7,7 @@ This repository contains the complete code, data, and MCMC chains required to re
 
 ---
 
-## 🚀 Key Results and Updates in V8 (Released November 17, 2025, 14:00 CET)
+## 🚀 Key Results and Updates in V8 (Released November 17, 2025)
 
 The HSE v8 framework unifies the resolution of Black Hole singularities and the $H_{0}$ tension through the single parameter of universal porosity ($\phi$):
 
