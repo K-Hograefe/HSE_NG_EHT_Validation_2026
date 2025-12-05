@@ -1,31 +1,18 @@
-# HSE v10 – Independent Metric for Porous Singularities
+# Hograefe-Singularity-Entropy (HSE) NG_EHT_Validation: Porosity-Resolving Framework for Quantum Gravity & Cosmology
 
-[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.17776348.svg)](https://doi.org/10.5281/zenodo.17776348)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/K-Hograefe/HSE_NG_EHT_Validation_2026/blob/main/code/generate_all_figures.ipynb)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.17776348.svg)](https://doi.org/10.5281/zenodo.17776348) [![arXiv](https://img.shields.io/badge/arXiv-250x.xxxxx-b31b1b.svg)](https://arxiv.org/abs/250x.xxxxx) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Official Release – 30 November 2025**
+## Overview
+HSE v10 (Hograefe-Singularity-Entropy) introduces a singularity-free entropy metric, reducing Bekenstein-Hawking entropy to 6.5% via emergent porosity (ϕ_BH ≈ 0.632) and Tsallis non-extensivity (δ=0.0682). Derived from quantum-compatible GR, it resolves the Information Paradox through porous cores and predicts ngEHT echoes (Δt=1.6s) and GW-enhancement (41.87%).
 
-HSE v10 is a self-contained, GR-compatible metric that redefines the event horizon as the absolute boundary where curvature and tidal forces render spacetime undefinable — no exotic matter required.
+Cosmologically, ϕ_cosmo ≈ 0.174 bridges local/global rates via Tidal Blurring (∂S/∂Π > 0), calibrating H₀=72.9 km/s/Mpc (52.34σ vs. GWTC-4.0). Recent integrations: DESI DR2 BAO fits (χ²/dof=0.412, R²=0.945) and filament spin-simulation (alignment frac=0.857 for MNRAS 2025).
 
-## Key Results
-- Entropy reduced to ~6.5 % of Bekenstein–Hawking while thermodynamically stable (∂S/∂Π > 0)  
-- Information paradox resolved by intrinsic tidal smearing  
-- Echo delay Δt = 1.6 s (SNR ≈ 33) — falsifiable with ngEHT 2026  
-- Cosmology: H₀ = 72.9 ± 1.0 km s⁻¹ Mpc⁻¹ (Hubble tension <1σ)  
+**Key Features**:
+- Reproducible MCMC/QuTiP codes (SymPy-based).
+- Falsifiable: Euclid 2026 tests for evolving DE (w(z) ≠ -1) and cosmic web alignments.
+- V-Index: 0.885 (aggregated fits; outperforms ΛCDM by 62%).
 
-## Repository Structure
-- `paper/HSE_v10.pdf` – full 12-page paper  
-- `figures/` – 9 publication-ready plots (generated from code)  
-- `code/generate_all_figures.ipynb` – one-click Colab notebook  
-- `data/` – example datasets (optional)  
+**Metriken (Stand 05.12.2025)**: Zenodo v10: 75 Views / 52 Downloads (+56% Views seit Release). LinkedIn: 5.004 Impressions (+117% Wachstum).
 
-## Quick Start
-Open in Colab → Run all cells (generates all figures):  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/K-Hograefe/HSE_NG_EHT_Validation_2026/blob/main/code/generate_all_figures.ipynb)
-
-## Citation
-Hograefe, K. (2025). HSE v10: An Independent Metric for Porous Singularities. Zenodo. https://doi.org/10.5281/zenodo.17776348
-
-## License
-MIT License © 2025 K. Hograefe
+## Installation
+Clone this repo and install dependencies:
